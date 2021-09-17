@@ -1,4 +1,4 @@
-function contagem(num) { 
+function saque(num) { 
     let notas = {100:0,50:0,10:0,5:0,1:0}; 
     let total = num; 
     let retirada = num; 
