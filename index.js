@@ -36,7 +36,9 @@ function contagem(num) {
     ${notas[10]}x 10 Reais 
     ${notas[5]}x 5 Reais 
     ${notas[1]}x 1 Real` 
-        // Acima, a variável recibo, uma string de várias linha feita com template literal, indica o valor sacado no caixa e quanto de cada cédula compõe essa quantia.
+    
+    // Acima, a variável recibo, uma string de várias linha feita com template literal, indica o valor sacado no caixa e quanto de cada cédula compõe essa quantia.
+    
     return Number.isInteger(num) && num > 0 ? recibo : 'Operação Inválida' // Testa se a quantia solicitada para saque (O argumento)
                                                                            // é um valor válido (Número inteiro e positivo), se verdadeiro
                                                                            // retornar o recibo, do contrário informa que a operação é inválida.
